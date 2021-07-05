@@ -64,18 +64,7 @@ const TeamsTab = () => {
                 <button className="addButton" onClick={onAddTeamClick}>Add</button>
             </div>
             </div>
-            <div className="schedule-container">
-                <h3>FIXTURES</h3>
-                <div>
-                    <input 
-                        className="addTeamInputBar" type="text" value={addTeamInput} 
-                        onChange={(e) => setAddTeamInput(e.target.value)}
-                        placeholder="Enter number of fixtures">
-                    </input>
-                    <button className="addButton" onClick={onAddTeamClick}>Create</button>
-                </div>
-            </div>
-            
+             
         </div>
     )
 }
