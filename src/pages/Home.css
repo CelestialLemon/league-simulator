@@ -1,0 +1,29 @@
+.teams-table
+{
+    max-width: 800px;
+    margin: 30px;
+}
+
+.addTeamInputBar
+{
+    width: 90%;
+}
+
+.addButton
+{
+    background-color: rgb(58, 58, 58);
+    color : white;
+    width: 10%;
+}
+
+.errorMsg
+{
+    font-size: 15px;
+    color : rgb(255, 73, 73);
+}
+
+.schedule-container
+{
+    max-width: 800px;
+    margin: 30px;
+}

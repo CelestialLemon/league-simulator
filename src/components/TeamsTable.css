@@ -1,0 +1,7 @@
+.deleteIcon
+{
+    
+    transform: scale(1.5);
+    cursor: pointer;
+    color : rgb(192, 0, 0);
+}
