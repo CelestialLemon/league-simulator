@@ -22,16 +22,3 @@
     color : rgb(255, 73, 73);
 }
 
-.fixture-container
-{
-    max-width: 800px;
-    margin: 30px;
-}
-
-
-
-.fixture-container .fixtures .fixture
-{
-    display: flex;
-    margin-top: 5px;
-}

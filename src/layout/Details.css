@@ -1,0 +1,10 @@
+.details-container
+{
+    margin : 30px;
+}
+
+.details-container input
+{
+    width: 13%;
+    margin-right: 2%;
+}

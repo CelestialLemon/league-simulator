@@ -7,7 +7,7 @@ import TeamsTable from '../components/TeamsTable';
 
 import { AiOutlinePlusCircle } from 'react-icons/ai'
 
-const TeamsTab = () => {
+const TeamsTab = ({onTeamsChange}) => {
 
     const [addTeamInput, setAddTeamInput] = useState('');
     const [teams, setTeams] = useState([]);
@@ -35,6 +35,7 @@ const TeamsTab = () => {
                 temp.push(addTeamInput);
                 setTeams(temp);
                 setAddTeamInput('');
+                onTeamsChange(teams); //pass upddated data to parent componenet
             }
             
         }
@@ -47,6 +48,7 @@ const TeamsTab = () => {
         testingArray = testingArray.filter((element, index) => index !== indexDeleted)
         setTeams(testingArray);
         console.log("Deleted element " + indexDeleted);
+        onTeamsChange(teams); //pass upddated data to parent componenet
     }
 
 

@@ -1,0 +1,32 @@
+.slider-container {
+    display : flex;
+    align-items: center;
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  
+    appearance: none;
+    height: 3px; 
+    background: #8f8f8f; 
+  }
+  
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 20px; 
+    height: 20px; 
+    border-radius: 100px;
+    background: #292b2c; 
+    cursor: pointer; 
+  }
+
+.slider-value
+{
+    padding-top: 5px;
+    margin-left: 20px;
+    color : #292b2c;
+    font-size: 20px;
+}
+  

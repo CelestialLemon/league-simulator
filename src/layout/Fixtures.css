@@ -1,0 +1,48 @@
+.fixture-container
+{
+    max-width: 800px;
+    margin: 30px;
+}
+
+
+
+.fixture-container .fixtures .fixture
+{
+    display: flex;
+    margin-top: 10px;
+}
+
+.fixture-container .fixtures .fixture .team1-select
+{
+    height: 40px;
+    display: grid;
+    width: 200px;
+    background-color: #2398ff5d;
+    border-width: 0px;
+    border-radius: 3px;
+    margin-right: 20px;
+    transition: background-color 350ms ease;
+}
+
+.fixture-container .fixtures .fixture .team1-select:hover
+{
+     background-color: #2398ffc0;
+}
+
+.fixture-container .fixtures .fixture .team2-select
+{
+    display: grid;
+    width: 200px;
+    background-color: #f33a3454;
+    border-width: 0px;
+    border-radius: 3px;
+    margin-right: 20px;
+    transition: background-color 350ms ease;
+
+}
+
+.fixture-container .fixtures .fixture .team2-select:hover
+{
+    background-color: #f33a34c9;
+}
+
