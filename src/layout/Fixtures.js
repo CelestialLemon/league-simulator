@@ -41,7 +41,7 @@ const Fixtures = ({teams, onFixturesChange}) => {
                         setFixturesData(temp);
                         onFixturesChange(temp);
                     }}>
-                        <option selected>Team 1</option>
+                        <option selected>Team 2</option>
                         {
                             teams.map(team => 
                             <option>{team}</option>)
